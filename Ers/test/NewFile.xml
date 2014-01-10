@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sphinx:docset xmlns:sphinx="http://sphinxsearch.com/">
+    <sphinx:schema>
+        <sphinx:field name="title"  src="title"/>
+        <sphinx:field name="content" src="content"/>
+        <sphinx:field name="tags"  src="tags_a"/>
+        <sphinx:field name="catalog_id"  src="catalog_id_a"/>
+        <sphinx:field name="news_type_id"  src="news_type_id_a"/>
+        <sphinx:field name="area_id"  src="area_id_a"/>
+        <sphinx:field name="source_id"  src="source_id"/>
+        <sphinx:attr name="publish_time_ts_a" type="timestamp" src="publish_time_ts"/>
+        <sphinx:attr name="created_at_ts_a" type="timestamp" src="created_at_ts"/>
+        <sphinx:attr name="updated_at_ts_a" type="timestamp"  src="updated_at_ts"/>
+        <sphinx:attr name="company_id_a" type="multi"  src="company_id_a"/>
+        <sphinx:attr name="company_id_pct_a" type="multi"  src="company_id_pct_a"/>
+        <sphinx:attr name="catalog_id_a" type="multi"  src="catalog_id_a"/>
+        <sphinx:attr name="catalog_id_pct_a" type="multi"  src="catalog_id_pct_a"/>
+        <sphinx:attr name="news_type_id_a" type="multi"  src="news_type_id_a"/>
+        <sphinx:attr name="news_type_id_pct_a" type="multi"  src="news_type_id_pct_a"/>
+        <sphinx:attr name="area_id_a" type="multi"  src="area_id_a"/>
+        <sphinx:attr name="area_id_pct_a" type="multi" src="area_id_pct_a"/>
+        <sphinx:attr name="source_id_a" type="multi" src="source_id"/>
+        <sphinx:attr name="similar_tag_id_a" type="int"  src="similar_tag_id"/>
+        <sphinx:attr name="similar_tag_flag_a" type="int" src="similar_tag_flag" />
+        <sphinx:attr name="content_describe_a" type="int" src="content_describe"/>
+        <sphinx:attr name="is_deleted" type="bool" src="is_deleted"/>
+        <sphinx:attr name="ss">
+    </sphinx:schema>
+</sphinx:docset>
